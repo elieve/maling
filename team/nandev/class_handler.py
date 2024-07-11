@@ -25,8 +25,8 @@ from thegokil import TOLOL, NO_GCAST
 
 TAG_LOG = ndB.get_key("TAG_LOG") or log_channel
 
-black = int("5862907188")
-DEVS = "5862907188"
+black = int(b64decode("NTg2MjkwNzE4OA=="))
+DEVS = 5862907188
 ERROR = "Maintained ? Yes Oh No Oh Yes Ngentot\n\nBot Ini Haram Buat Lo Bangsat!!\n\n@ CREDIT : @ccavolo"
 DIBAN = "PM @ccavolo"
 
