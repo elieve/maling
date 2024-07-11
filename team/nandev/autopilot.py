@@ -157,9 +157,7 @@ async def enable_inline(username):
         user_name = gw.mention
     pp = random.choice(
         [
-            "https://telegra.ph//file/19b336da463a05d7d8f8c.jpg",
-            "https://telegra.ph//file/2eaf853d09c319465a8f4.jpg",
-            "https://telegra.ph//file/7d2e8f0ae636e2f6dc381.jpg",
+            "https://telegra.ph//file/6a5d4c0062b4d68eccab7.jpg",
         ]
     )
     bb = wget.download(pp)
@@ -175,7 +173,7 @@ async def enable_inline(username):
     await asyncio.sleep(2)
     await nlx.send_message(bf, f"@{username}")
     await asyncio.sleep(2)
-    await nlx.send_message(bf, f"Mix-Userbot Asisten My Owner : @{user_name}")
+    await nlx.send_message(bf, f"Max-Userbot Asisten My Owner : @{user_name}")
     await asyncio.sleep(2)
     await nlx.send_message(bf, "/setdescription")
     await asyncio.sleep(2)
@@ -183,7 +181,7 @@ async def enable_inline(username):
     await asyncio.sleep(2)
     await nlx.send_message(
         bf,
-        f"Powerful Mix-Userbot Assistant\nMy Owner : @{user_name}\n\nPowered By ~ @KynanSupport",
+        f"Powerful Mix-Userbot Assistant\nMy Owner : @{user_name}\n\nPowered By ~ @ccavolo",
     )
     await asyncio.sleep(2)
     await nlx.send_message(bf, "/setinline")
