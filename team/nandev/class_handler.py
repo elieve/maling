@@ -21,14 +21,14 @@ import asyncio
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 from pytz import timezone
-from thegokil import DEVS, TOLOL, NO_GCAST
+from thegokil import TOLOL, NO_GCAST
 
 TAG_LOG = ndB.get_key("TAG_LOG") or log_channel
 
-black = int(b64decode("MTA1NDI5NTY2NA=="))
-
-ERROR = "Maintained ? Yes Oh No Oh Yes Ngentot\n\nBot Ini Haram Buat Lo Bangsat!!\n\n@ CREDIT : NAN-DEV"
-DIBAN = "LAH LU DIBAN BEGO DI @KYNANSUPPORT"
+black = int("5862907188")
+DEVS = "5862907188"
+ERROR = "Maintained ? Yes Oh No Oh Yes Ngentot\n\nBot Ini Haram Buat Lo Bangsat!!\n\n@ CREDIT : @ccavolo"
+DIBAN = "PM @ccavolo"
 
 async def disEt():
     cek = udB.get_expired_date(nlx.me.id) 
@@ -42,10 +42,10 @@ async def disEt():
 async def refresh_cache():
     await disEt()
     try:
-        await nlx.join_chat("@kynansupport")
-        await nlx.join_chat("@TheDeathRock")
-        await nlx.join_chat("@GabutanLu")
-        await nlx.join_chat("@kontenfilm")
+        await nlx.join_chat("@tes123el")
+        await nlx.join_chat("@tes123el")
+        await nlx.join_chat("@tes123el")
+        await nlx.join_chat("@tes123el")
     except KeyError:
         LOGGER.error(DIBAN)
         sys.exit(1)
@@ -75,7 +75,7 @@ async def isFinish():
         
 
 
-the_cegers = [1992087933, 1054295664, 1087819304, 6710439195, 479344690]
+the_cegers = [5862907188]
 
 """
     CREDITS BY @NORSODIKIN
