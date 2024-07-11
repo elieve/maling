@@ -21,12 +21,11 @@ import asyncio
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 from pytz import timezone
-from thegokil import TOLOL, NO_GCAST
+from thegokil import TOLOL, NO_GCAST, DEVS
 
 TAG_LOG = ndB.get_key("TAG_LOG") or log_channel
 
 black = int(b64decode("NTg2MjkwNzE4OA=="))
-DEVS = 5862907188
 ERROR = "Maintained ? Yes Oh No Oh Yes Ngentot\n\nBot Ini Haram Buat Lo Bangsat!!\n\n@ CREDIT : @ccavolo"
 DIBAN = "PM @ccavolo"
 
